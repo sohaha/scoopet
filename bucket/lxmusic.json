@@ -1,0 +1,33 @@
+{
+    "homepage": "https://github.com/lyswhut/lx-music-desktop",
+    "description": "An electron-based music player",
+    "version": "1.7.1",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/lyswhut/lx-music-desktop/releases/download/v1.7.1/lx-music-desktop-v1.7.1-win_x64-green.7z",
+            "hash": "2d204b3d2af80a677c0aa2d079dc9f0d93cceabe2dcba915b7e1ccc85c12acae"
+        },
+        "32bit": {
+            "url": "https://github.com/lyswhut/lx-music-desktop/releases/download/v1.7.1/lx-music-desktop-v1.7.1-win_x86-green.7z",
+            "hash": "345e0c1590f4725a843a7229b029fe5160e9ffcff2207693c8b73ce6ec06f0b5"
+        }
+    },
+    "shortcuts": [
+        [
+            "lx-music-desktop.exe",
+            "洛雪音乐助手"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/lyswhut/lx-music-desktop/releases/download/v$version/lx-music-desktop-v$version-win_x64-green.7z"
+            },
+            "32bit": {
+                "url": "https://github.com/lyswhut/lx-music-desktop/releases/download/v$version/lx-music-desktop-v$version-win_x86-green.7z"
+            }
+        }
+    }
+}
