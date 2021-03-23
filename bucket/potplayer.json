@@ -1,0 +1,82 @@
+{
+    "version": "210127",
+    "description": "Highly customizable media player",
+    "homepage": "https://potplayer.daum.net",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://potplayer.daum.net/publicRelation"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://t1.daumcdn.net/potplayer/PotPlayer/Version/210127/PotPlayerSetup64.exe#/dl.7z",
+            "hash": "68aab0b7c4e30464a6189888e59859b2bf25ed18b805aee902e55968e2d6d4d8",
+            "shortcuts": [
+                [
+                    "PotPlayer64.exe",
+                    "PotPlayer"
+                ],
+                [
+                    "PotPlayerMini64.exe",
+                    "PotPlayer Mini"
+                ]
+            ]
+        },
+        "32bit": {
+            "url": "https://t1.daumcdn.net/potplayer/PotPlayer/Version/210127/PotPlayerSetup.exe#/dl.7z",
+            "hash": "c30609bf831e598e71324b3007e3f00ade760f2b15dd11131c67bb3f2bb3c67d",
+            "shortcuts": [
+                [
+                    "PotPlayer.exe",
+                    "PotPlayer"
+                ],
+                [
+                    "PotPlayerMini.exe",
+                    "PotPlayer Mini"
+                ]
+            ]
+        }
+    },
+    "pre_install": [
+        "Remove-Item \"$dir\\`$*\" -Force -Recurse",
+        "$CONT = @(",
+        "    '[Settings]'",
+        "    'AutoUpdateStart=0'",
+        "    'CheckAutoUpdate=0'",
+        "    'FastAutoUpdate=0'",
+        ")",
+        "    # Set Configs for all executables",
+        "foreach ($f in @('PotPlayerMini64.ini', 'PotPlayerMini.ini', 'PotPlayer64.ini', 'PotPlayer.ini')) {",
+        "    if (-not (Test-Path \"$persist_dir\\$f\")) {",
+        "        Write-Host 'File' $f 'does not exists. Creating' -f Yellow",
+        "        Set-Content \"$dir\\$f\" $CONT -Encoding Ascii",
+        "    }",
+        "}"
+    ],
+    "persist": [
+        "Capture",
+        "Extension",
+        "IconPack",
+        "Logos",
+        "Playlist",
+        "Skins",
+        "UrlList",
+        "PotPlayer.ini",
+        "PotPlayer64.ini",
+        "PotPlayerMini.ini",
+        "PotPlayerMini64.ini"
+    ],
+    "checkver": {
+        "url": "https://potplayer.daum.net/update.html?lang=en&bit",
+        "regex": "\\[(\\d+)\\]"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://t1.daumcdn.net/potplayer/PotPlayer/Version/$version/PotPlayerSetup64.exe#/dl.7z"
+            },
+            "32bit": {
+                "url": "https://t1.daumcdn.net/potplayer/PotPlayer/Version/$version/PotPlayerSetup.exe#/dl.7z"
+            }
+        }
+    }
+}
