@@ -1,0 +1,14 @@
+{
+    "homepage": "https://www.apifox.cn/",
+    "description": "apifox",
+    "version": "1.2.4",
+    "license": "Freeware",
+    "url": "https://cdn3.apifox.cn/download/Apifox-windows-latest.zip#/dl.7z",
+    "shortcuts": [
+        [
+            "apifox.exe",
+            "apifox"
+        ]
+    ],
+    "notes": "We don't persist your apifox data, they are still storaged in '%LOCALAPPDATA%\\apifox'."
+}
