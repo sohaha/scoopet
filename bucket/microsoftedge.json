@@ -1,16 +1,16 @@
 {
     "homepage": "https://www.microsoft.com/en-us/edge",
     "description": "The chromium based Microsoft Edge browser",
-    "version": "89.0.774.57",
+    "version": "89.0.774.68",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://edge-dl.kidonng.workers.dev/https://api.shuax.com/v2/download/edge/stable/x64#/MicrosoftEdge-89.0.774.57-x86_x64.7z",
-            "hash": "3aac738cf98c83826fc413b19f22511d86d531561ddb0cc755f50243e2508ae8"
+            "url": "https://edge-dl.kidonng.workers.dev/https://api.shuax.com/v2/download/edge/stable/x64#/MicrosoftEdge-89.0.774.68-x86_x64.7z",
+            "hash": "f4a183dbc844e0dbd74745b59c86c4606871c579affae17830c4ee914205712c"
         },
         "32bit": {
-            "url": "https://edge-dl.kidonng.workers.dev/https://api.shuax.com/v2/download/edge/stable/x86#/MicrosoftEdge-89.0.774.57-x86.7z",
-            "hash": "e970463b68ed3097a504aec329a17305da140eae92a7fb918b78714b98ace32c"
+            "url": "https://edge-dl.kidonng.workers.dev/https://api.shuax.com/v2/download/edge/stable/x86#/MicrosoftEdge-89.0.774.68-x86.7z",
+            "hash": "141e7968bec487742389a8595c78acc40ec6c900f818cca0895da979b8951aaa"
         }
     },
     "installer": {
