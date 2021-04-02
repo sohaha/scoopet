@@ -1,15 +1,15 @@
 {
     "homepage": "https://www.microsoft.com/en-us/edge",
     "description": "The chromium based Microsoft Edge browser (Beta Channel)",
-    "version": "90.0.818.22",
+    "version": "90.0.818.27",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://edge-dl.kidonng.workers.dev/https://api.shuax.com/v2/download/edge/beta/x64#/MicrosoftEdge-Beta-90.0.818.22-x86_x64.7z",
-            "hash": "29ed70258cbdf3c9e920e249de0709a98da33ca4ee846c6c602f165c26d14b27"
+            "url": "https://edge-dl.kidonng.workers.dev/https://api.shuax.com/v2/download/edge/beta/x64#/MicrosoftEdge-Beta-90.0.818.27-x86_x64.7z",
+            "hash": "5a51100a730d5ca4b14540e26595b73cce5b7cacfb3fa24359a04b287f75cf7f"
         },
         "32bit": {
-            "url": "https://edge-dl.kidonng.workers.dev/https://api.shuax.com/v2/download/edge/beta/x86#/MicrosoftEdge-Beta-90.0.818.22-x86.7z",
+            "url": "https://edge-dl.kidonng.workers.dev/https://api.shuax.com/v2/download/edge/beta/x86#/MicrosoftEdge-Beta-90.0.818.27-x86.7z",
             "hash": "dbdc73a77968d1b96e6de77ef5b1901d86a51635d452c4f21ff1b127b41a1889"
         }
     },
