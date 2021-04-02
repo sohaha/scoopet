@@ -4,11 +4,18 @@
     "version": "1.2.4",
     "license": "Freeware",
     "url": "https://cdn3.apifox.cn/download/Apifox-windows-latest.zip#/dl.7z",
+    "installer": {
+        "script": [
+            "Expand-7zipArchive \"$dir\\Apifox Setup 1.2.4.exe\" \"$dir\"",
+            "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
+            "Remove-Item \"$dir\\Apifox Setup 1.2.4.exe\"",
+            "Remove-Item \"$dir\\`$PLUGINSDIR\" -Recurse"
+        ]
+    },
     "shortcuts": [
         [
-            "apifox.exe",
+            "Apifox.exe",
             "apifox"
         ]
-    ],
-    "notes": "We don't persist your apifox data, they are still storaged in '%LOCALAPPDATA%\\apifox'."
+    ]
 }
