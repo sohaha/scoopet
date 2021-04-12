@@ -12,6 +12,10 @@
             "Remove-Item \"$dir\\`$PLUGINSDIR\" -Recurse"
         ]
     },
+    "checkver": {
+        "url": "https://www.apifox.cn/help/app/changelog/",
+        "regex": "<h2.*?>.* ([\\d.]+)</h2>"
+    },
     "shortcuts": [
         [
             "Apifox.exe",
