@@ -14,7 +14,7 @@
     },
     "checkver": {
         "url": "https://www.apifox.cn/help/app/changelog/",
-        "regex": "<h2.*?>.* ([\\d.]+)</h2>"
+        "regex": "<h2.*?>.* ([\\d.]+)<\/h2>"
     },
     "shortcuts": [
         [
