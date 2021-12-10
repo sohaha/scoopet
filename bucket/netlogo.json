@@ -2,7 +2,7 @@
     "homepage": "https://ccl.northwestern.edu/netlogo/",
     "description": "turtles, patches, and links for kids, teachers, and scientists",
     "license": "GPL-2.0",
-    "version": "6.2.1",
+    "version": "6.2.2",
     "architecture": {
         "64bit": {
             "url": "https://ccl.northwestern.edu/netlogo/6.2.0/NetLogo-6.2.0-64.msi",
