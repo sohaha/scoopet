@@ -2,19 +2,19 @@
     "homepage": "https://cytoscape.org/",
     "description": "Cytoscape is an open source software platform for visualizing complex networks and integrating these with any type of attribute data.",
     "license": "MIT",
-    "version": "3.9.0",
+    "version": "3.9.1",
     "depends": "java/openjdk12",
     "env_set": {
         "EXEJ_JAVA_HOME": "$scoopdir\\apps\\openjdk12\\current\\bin"
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/cytoscape/cytoscape/releases/download/3.9.0/Cytoscape_3_9_0_windows_64bit.exe",
-            "hash": "7f6ff3145087121a7898ae7cdd2bcf9662ba9f31d311ff4c2a7adc1c97c2cdae"
+            "url": "https://github.com/cytoscape/cytoscape/releases/download/3.9.1/Cytoscape_3_9_1_windows_64bit.exe",
+            "hash": "4a9073f2480fdbecb945c9a76838ec1e93fad027f36efd44ae2c779040f317f0"
         },
         "32bit": {
-            "url": "https://github.com/cytoscape/cytoscape/releases/download/3.9.0/Cytoscape_3_9_0_windows_32bit.exe",
-            "hash": "8e1ea942256a5efb77c16e32c8e6cd8a3bfbc5c7671349c8ece0a3d9970331d9"
+            "url": "https://github.com/cytoscape/cytoscape/releases/download/3.9.1/Cytoscape_3_9_1_windows_32bit.exe",
+            "hash": "b6d970b35cb2325c6b12d9991b70b766074a9a1d3dacb35e1e5bd9ff61d9644b"
         }
     },
     "installer": {
