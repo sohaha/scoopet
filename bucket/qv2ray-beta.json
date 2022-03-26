@@ -1,5 +1,5 @@
 {
-    "version": "2.7.0-pre1",
+    "version": "2.7.0",
     "description": "Graphical frontend for v2ray (beta)",
     "homepage": "https://github.com/Qv2ray/Qv2ray",
     "license": "GPL-3.0-or-later",
@@ -9,12 +9,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/Qv2ray/Qv2ray/releases/download/v2.7.0-pre1/Qv2ray.v2.7.0-pre1.Windows-x64.7z",
-            "hash": "ccb0c02925c2c3effa6ba5dc5b84bb1fad226f709ccc8360d2fca77ee8dd42da"
+            "url": "https://download.fastgit.org/Qv2ray/Qv2ray/releases/download/v2.7.0/Qv2ray.v2.7.0.Windows-x64.7z",
+            "hash": "2a31d8e63a7db8b5d296576a8cfac1f0f123c69e863f8075e33a8b6b3113f699"
         },
         "32bit": {
-            "url": "https://download.fastgit.org/Qv2ray/Qv2ray/releases/download/v2.7.0-pre1/Qv2ray.v2.7.0-pre1.Windows-x86.7z",
-            "hash": "3f47065270ffe94d11dda7c72b550096ad9f0c40394499c939a63fc4457f3499"
+            "url": "https://download.fastgit.org/Qv2ray/Qv2ray/releases/download/v2.7.0/Qv2ray.v2.7.0.Windows-x86.7z",
+            "hash": "0a888fd1b7402b07c72319657350b619f0207496d34b4957ae9dffb2d4752dc6"
         }
     },
     "extract_dir": "deployment",
